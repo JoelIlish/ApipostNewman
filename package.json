@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "project for storing Postman tests",
+  "directories": {
+     "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "joel kpahou",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
